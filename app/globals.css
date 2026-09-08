@@ -10,3 +10,5 @@
 footer{background:var(--acid);padding:110px 4vw 30px;overflow:hidden}footer h2{margin:70px 0 90px;max-width:1100px}.footerRow{display:flex;justify-content:space-between;padding-top:25px;border-top:1px solid var(--ink);font-size:14px}.footerRow a{font-weight:700}.signature{font:400 clamp(90px,18vw,280px)/.8 Georgia,serif;white-space:nowrap;letter-spacing:-.08em;margin-top:130px}
 @media(max-width:720px){.navLinks{gap:14px}.hero{padding-top:130px}.hero h1{font-size:19vw}.hero h1 em{margin-left:0}.orbit{display:none}.heroBottom{gap:20px}.roundLink{width:56px;height:56px;flex:0 0 auto}.statement,.approachHead{grid-template-columns:1fr}.statement>div>p{margin-left:0}.disciplineList article{grid-template-columns:45px 1fr 25px;padding:28px 0}.disciplineList article p{grid-column:2/4;margin:0}.proofCard{min-height:520px;padding:30px 22px}.footerRow{flex-direction:column;gap:20px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.orbit,.marquee div{animation:none}}
+
+.statement h2{font-family:"Wanted Sans",Arial,sans-serif;font-weight:700;line-height:1.12;letter-spacing:-.05em}
