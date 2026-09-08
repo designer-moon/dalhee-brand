@@ -12,7 +12,7 @@ export default function Home() {
     <section className="hero" id="top">
       <div className="eyebrow"><span /> Seoul · Open to good ideas</div>
       <h1>Ideas into<br /><em>living brands.</em></h1>
-      <div className="heroBottom"><p className="intro">안녕하세요, 김달희입니다.<br />브랜드의 감각을 발견하고, 디지털 경험과 시스템으로 완성하는 디자이너입니다.</p><a className="roundLink" href="#about" aria-label="소개 보기">↓</a></div>
+      <div className="heroBottom"><p className="intro">안녕하세요, moon입니다.<br />브랜드의 감각을 발견하고, 디지털 경험과 시스템으로 완성하는 디자이너입니다.</p><a className="roundLink" href="#about" aria-label="소개 보기">↓</a></div>
       <div className="orbit" aria-hidden="true"><span>DESIGN · BRAND · AI · </span></div>
     </section>
     <section className="statement" id="about"><p className="sectionLabel">01 / About</p><div><h2>감각은 시작이고,<br />시스템이 완성입니다.</h2><p>흩어진 아이디어에서 핵심을 찾고, 누구나 일관되게 경험할 수 있는 브랜드로 만듭니다. 최근에는 AI를 창작의 지름길이 아닌, 생각의 폭과 실행의 밀도를 높이는 동료로 활용하고 있습니다.</p></div></section>
@@ -22,6 +22,6 @@ export default function Home() {
       <div className="disciplineList">{disciplines.map(([number,title,copy]) => <article key={number}><span>{number}</span><h3>{title}</h3><p>{copy}</p><b aria-hidden="true">↗</b></article>)}</div>
     </section>
     <section className="proof"><p className="sectionLabel">03 / Current focus</p><div className="proofCard"><p>NOW EXPLORING</p><h2>Beauty, wellness<br />& intelligent design.</h2><div className="proofMeta"><span>브랜드 아키텍처</span><span>디자인 시스템</span><span>AI 크리에이티브</span></div></div></section>
-    <footer id="contact"><p className="sectionLabel">04 / Let&apos;s connect</p><h2>Good work starts<br />with a good conversation.</h2><div className="footerRow"><p>새로운 브랜드, 더 나은 경험, 재미있는 실험을 함께 이야기해요.</p><a href="https://github.com/designer-moon" target="_blank" rel="noreferrer">GitHub ↗</a></div><div className="signature">DALHEE KIM</div></footer>
+    <footer id="contact"><p className="sectionLabel">04 / Let&apos;s connect</p><h2>Good work starts<br />with a good conversation.</h2><div className="footerRow"><p>새로운 브랜드, 더 나은 경험, 재미있는 실험을 함께 이야기해요.</p><a href="https://github.com/designer-moon" target="_blank" rel="noreferrer">GitHub ↗</a></div><div className="signature">moon</div></footer>
   </main>;
 }
